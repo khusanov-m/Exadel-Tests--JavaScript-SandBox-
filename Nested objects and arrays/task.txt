@@ -1,0 +1,25 @@
+20 mark
+
+Precondition: The "input1.txt" file contains valid object in JSON format.
+
+
+
+Task:
+
+Implement a script that:
+
+1. Reads an object from a file.
+
+2. Finds the sum of all primitives contained in an object, as well as in nested objects and arrays:
+
+The nested object can contain primitives, objects, arrays.
+A nested array can also contain primitives, objects, arrays.
+If the primitive is number, use it.
+If the primitive is boolean, then true to convert to 1, false to 0.
+Consider null and undefined primitives equal to 0.
+The string, BigInt, symbol primitives will not be used.
+3. Writes the result to the file "output.txt".
+
+
+
+Note: Check "input.txt" and "output.txt" files in "Tests" tab as an example.

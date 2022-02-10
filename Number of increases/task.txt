@@ -1,0 +1,56 @@
+10 mark
+
+Precondition: The “input.txt” file contains numbers separated by commas.
+
+
+
+Task:
+
+Read data from “input.txt” file using node.js module fs.
+Convert data to the array.
+Write to the “output.txt” file the number of times a measurement increases from the previous measurement.
+
+
+Example:
+
+You have the following data:
+
+158
+
+164
+
+742
+
+99
+
+155
+
+250
+
+240
+
+87
+
+
+
+In this example, there are 4 measurements that are larger than the previous measurement.
+
+158 (N/A - no previous measurement)
+
+164 (increased)
+
+742 (increased)
+
+652 (decreased)
+
+155 (increased)
+
+250 (increased)
+
+240 (decreased)
+
+222 (decreased)
+
+
+
+Note: Check "input.txt" and "output.txt" files in "Tests" tab as an example.

@@ -1,0 +1,56 @@
+20 mark
+
+Precondition: The “input.txt” file contains a list of binary numbers separated by commas. The number of binary numbers in "input.txt" file is odd.
+
+
+
+You need to use the binary numbers from “input.txt” file to generate a new binary number called the gamma.
+
+Each bit in the gamma rate can be determined by finding the most common bit in the corresponding position of all numbers. 
+
+
+
+Task:
+
+Read data from “input.txt” file using node.js module fs.
+Convert data to array
+Write gamma number to “output.txt” file as a decimal.
+
+
+Example: 
+
+00100
+
+11110
+
+10110
+
+10111
+
+10101
+
+01111
+
+00111
+
+11100
+
+10000
+
+11001
+
+00010
+
+01010
+
+
+
+Description:
+
+Considering only the first bit of each number, there are five 0 bits and seven 1 bits. Since the most common bit is 1, the first bit of the gamma rate is 1.
+The most common second bit of the numbers in the diagnostic report is 0, so the second bit of the gamma rate is 0.
+The most common value of the third, fourth, and fifth bits are 1, 1, and 0, respectively, and so the final three bits of the gamma rate are 110.
+So, the gamma rate is the binary number 10110, or 22 in decimal.
+
+
+Note: Check "input.txt" and "output.txt" files in "Tests" tab as an example.

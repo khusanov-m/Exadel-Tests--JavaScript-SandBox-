@@ -1,0 +1,13 @@
+5 mark
+
+Precondition: The "input.txt" file contains a number.
+
+
+
+Task:
+
+Read data from "input.txt" file using node.js module fs.
+If the number is prime, write true to the "output.txt" file, otherwise, write false.
+
+
+Note: Check "input.txt" and "output.txt" files in "Tests" tab as an example.

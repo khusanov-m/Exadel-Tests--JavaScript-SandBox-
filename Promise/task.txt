@@ -1,0 +1,27 @@
+15 mark
+
+Precondition:
+
+"input.txt" contains a string.
+
+"script1.js" contains a function, that returns Promise..
+
+
+
+Task:
+
+Implement a script that:
+
+
+
+1.Imports function "func1" from file "script1.js";
+
+2. Reads a string from the "input.txt";
+
+3. Calls "func1" with an argument equal to the string;
+
+4. Waits until the received Promise has state: "fulfilled" and then outputs the result to the file "output.txt".
+
+
+
+Note: Check "input.txt", "script1.js" and "output.txt" files in "Tests" tab as an example.

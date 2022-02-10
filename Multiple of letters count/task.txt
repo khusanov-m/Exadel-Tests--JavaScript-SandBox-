@@ -1,0 +1,15 @@
+10 mark
+
+Precondition: The “input.txt” file contains text.
+
+
+
+Task:
+
+Read data from “input.txt” file using node.js module fs.
+Count the number of letters “a” in text from “input.txt”.
+Count the number of letters “o” in text from “input.txt”.
+Write the result of multiplying the number of letters “a” and “o” to “output.txt” file.
+
+
+Note: Check "input.txt" and "output.txt" files in "Tests" tab as an example.
